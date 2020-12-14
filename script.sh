@@ -3,7 +3,9 @@ var=10
 ran=$(($RANDOM % $var))
 echo $ran
 
-htm="<html><body> $ran </body></html>"
+
+
+htm="<html><head><title>Get Your Lucky Number</title><link rel='stylesheet' href='style.css'><meta name='viewport' content='width=device-width, initial-scale=1.0'></head><body><div class='main'> $ran </div></body></html>"
 
 echo $htm
 
@@ -11,6 +13,15 @@ git pull
 
 cat << EOF > index.html 
 $htm
+EOF
+
+timestamp=date +"%T"
+
+cat << EOF > README.md
+# This is a Auto Git Commit Script 
+## Running on AWS automatically updating the webpage everyday
+
+- Last Updated at $timestamp
 EOF
 
 git add .
