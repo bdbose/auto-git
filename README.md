@@ -1,6 +1,6 @@
-# This is a Auto Git Commit Script 
-## Running on AWS automatically updating the webpage everyday
-## Checkout Website:  ![https://bdbose.github.io/auto-git/index.html](https://bdbose.github.io/auto-git/index.html)
+# This is a Auto Git Commit Script :robot:
+## :supervillain_man: Running on AWS automatically updating the webpage everyday
+## :earth_asia: Checkout Website:  https://bdbose.github.io/auto-git/index.html
 
 
-- Last Updated at 02:18:05
+- :alarm_clock: Last Updated at 02:24:56
