@@ -15,7 +15,7 @@ cat << EOF > index.html
 $htm
 EOF
 
-timestamp=$(date +%s)
+timestamp=$(date +%T)
 
 cat << EOF > README.md
 # This is a Auto Git Commit Script 
