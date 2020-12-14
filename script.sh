@@ -5,7 +5,7 @@ echo $ran
 
 
 
-htm="<html><head><title>Get Your Lucky Number</title><link rel='stylesheet' href='style.css'><meta name='viewport' content='width=device-width, initial-scale=1.0'></head><body><div class='main'> $ran </div></body></html>"
+htm="<html><head><title>Get Your Lucky Number</title><link rel='stylesheet' href='style.css'><meta name='viewport' content='width=device-width, initial-scale=1.0'></head><body><div class='main'><span>Today's Lucky Number :</span> $ran </div></body></html>"
 
 echo $htm
 
@@ -20,6 +20,8 @@ timestamp=$(date +%T)
 cat << EOF > README.md
 # This is a Auto Git Commit Script 
 ## Running on AWS automatically updating the webpage everyday
+## Checkout Website:  ![https://bdbose.github.io/auto-git/index.html](https://bdbose.github.io/auto-git/index.html)
+
 
 - Last Updated at $timestamp
 EOF
