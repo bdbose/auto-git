@@ -1,3 +1,4 @@
+cd auto-git
 var=10
 
 ran=$(($RANDOM % $var))
@@ -34,4 +35,4 @@ echo $htm
 
 # git push
 
-
+cd ..
