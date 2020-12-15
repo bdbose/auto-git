@@ -33,5 +33,4 @@ git commit -m "Index Updated"
 
 git push
 
-
 cd ..
