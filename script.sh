@@ -1,3 +1,4 @@
+cd auto-git
 var=10
 
 ran=$(($RANDOM % $var))
@@ -17,7 +18,7 @@ EOF
 
 timestamp=$(date +%T)
 
-cat << EOF > README.md
+cat << EOF > /auto-git/README.md
 # This is a Auto Git Commit Script :robot:
 ## :supervillain_man: Running on AWS automatically updating the webpage everyday
 ## :earth_asia: Checkout Website:  https://bdbose.github.io/auto-git/index.html
@@ -33,3 +34,4 @@ git commit -m "Index Updated"
 git push
 
 
+cd ..
