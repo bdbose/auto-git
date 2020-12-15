@@ -4,8 +4,6 @@ var=10
 ran=$(($RANDOM % $var))
 echo $ran
 
-echo $USER
-
 htm="<html><head><title>Get Your Lucky Number</title><link rel='stylesheet' href='style.css'><meta name='viewport' content='width=device-width, initial-scale=1.0'></head><body><div class='main'><span>Today's Lucky Number :</span> $ran </div></body></html>"
 
 echo $htm
