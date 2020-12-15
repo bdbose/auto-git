@@ -18,7 +18,7 @@ EOF
 
 timestamp=$(date +%T)
 
-cat << EOF > /auto-git/README.md
+cat << EOF > README.md
 # This is a Auto Git Commit Script :robot:
 ## :supervillain_man: Running on AWS automatically updating the webpage everyday
 ## :earth_asia: Checkout Website:  https://bdbose.github.io/auto-git/index.html
